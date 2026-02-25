@@ -1,8 +1,12 @@
+import React from "react";
+import "./footer.css";
+
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="footer-simple bg-secondary text-white py-4 mt-auto">
+    <footer className="footer text-white py-4 mt-auto">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">

@@ -5,15 +5,14 @@ import ImageTextSection from '../components/section-components/Section-image-tex
 
 const Inicio = () => {
   return (
-    <div className="container mt-5">
+    <div className="container py-3">
       <div className="row">
         <div className="col-lg-8 mx-auto text-center">
           <h1 className="display-4 fw-bold mb-4">¡Bienvenido a Inicio!</h1>
           <p className="lead mb-5">
             Esta es tu página de inicio. Aquí va el contenido principal.
           </p>
-          <ImageTextSection />
-          
+          <ImageTextSection />          
         </div>
       </div>
     </div>
