@@ -1,0 +1,13 @@
+.footer-simple {
+  background-color: rgba(10, 10, 25, 0.95) !important; /* Gris como tu imagen */
+ 
+}
+
+.footer-simple strong {
+  color: #fff !important;
+  font-size: 1.1rem;
+}
+
+.footer-simple small {
+  line-height: 1.4;
+}
