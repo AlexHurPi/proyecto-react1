@@ -1,5 +1,5 @@
 // App.jsx
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './languages/i18n.js';  // ← Agrega esta línea al inicio
 
 import Header from './components/header-components/Header.jsx';
@@ -13,13 +13,13 @@ function App() {
     <>
       <Header />  
       <main className="flex-grow-1">
-        <Routes>
+        <Router>
            {/* ← ESTO FALTABA: ruta "/" = página inicial */}
           <Route path="/" element={<Inicio />} />
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/servicios" element={<Servicios />} />
 
-        </Routes>
+        </Router>
       </main>
       <Footer />
     </>
