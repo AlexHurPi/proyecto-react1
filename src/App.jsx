@@ -18,7 +18,6 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/servicios" element={<Servicios />} />
-
         </Router>
       </main>
       <Footer />
