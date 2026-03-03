@@ -1,5 +1,7 @@
 // App.jsx
 import { Routes, Route } from 'react-router-dom';
+import './languages/i18n.js';  // ← Agrega esta línea al inicio
+
 import Header from './components/header-components/Header.jsx';
 import Inicio from './pages/Inicio.jsx';  // ← Importar aquí
 import Servicios from './pages/Servicios.jsx';  // ← Importar aquí

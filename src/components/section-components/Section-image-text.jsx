@@ -1,11 +1,15 @@
 import React from "react";
 import "./section-image-text.css";
 import imagen1 from "../../assets/imagen1.jpg";
+import { useTranslation } from 'react-i18next';
 
 const ImageTextSection = () => {
+  const { t } = useTranslation();
+  
+
   return (
     <section className="image-text-section">
-      <p className="section-subtitle">Subtítulo de la sección</p>
+      <p className="section-subtitle">{t("seccion2")}</p>
 
       <div className="image-text-wrapper">
         <div className="image-container">
@@ -16,16 +20,12 @@ const ImageTextSection = () => {
         </div>
 
         <div className="text-container">
-          <h2 className="section-title">Título atractivo del bloque</h2>
+          <h2 className="section-title">{t("seccion2")}</h2>
           <p>
-            Este es un texto descriptivo donde puedes explicar tu producto,
-            servicio o cualquier información relevante. El diseño es moderno,
-            limpio y se adapta a distintos tamaños de pantalla.
+           {t("parrafo-seccion2")}
           </p>
           <p>
-            En pantallas grandes el texto se muestra al lado de la imagen, y en
-            dispositivos móviles se apilan uno encima del otro para mejorar la
-            legibilidad.
+            {t("parrafo-seccion2a")}
           </p>
           <button className="primary-button">Llamada a la acción</button>
         </div>
